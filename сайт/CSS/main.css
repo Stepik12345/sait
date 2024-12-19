@@ -1,0 +1,107 @@
+@font-face {
+  font-family: do;
+  src: url(../FONTS/DaysOne-Regular.ttf);
+}
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  font-family: do;
+}
+body {
+  height: 100vh;
+  background: url(../IMAGES/backg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #000000;
+}
+header {
+  background-color: #000000;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  justify-content: space-between;
+  position: fixed;
+  padding: 0 8%;
+  align-items: center;
+}
+
+header nav ul li {
+  position: relative;
+  float: left;
+}
+header nav ul li a,
+.name,
+.signin {
+  color: #fff507;
+  display: block;
+  font-size: 20px;
+  padding: 20px;
+}
+header nav ul li a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.white {
+  color: #ffffff;
+  display: block;
+  font-size: 20px;
+}
+.white:hover {
+  background-color: rgb(0, 0, 0);
+  color: #fff507;
+}
+.name:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.signin:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.image-main {
+  width: 45px;
+  height: 45px;
+  padding-top: 8px;
+}
+.photo {
+  display: flex;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.premier {
+  height: 90px;
+  width: 80%;
+  padding-top: 300px;
+  padding-left: 500px;
+  font-size: 50px;
+}
+.prtext-line {
+  padding-top: 10px;
+  width: 800px;
+  border-bottom: 4px solid #fff507;
+}
+a {
+  padding-left: 250px;
+  color: #fff507;
+  font-size: 60px;
+}
+.button {
+  margin-left: 290px;
+  margin-top: 15px;
+}
+.buttontext {
+  transition: 0.4s;
+  padding: 10px;
+  border-radius: 100px;
+  font-size: 38px;
+  color: black;
+  background-color: #fff507;
+}
+.buttontext:hover {
+  background-color: white;
+}

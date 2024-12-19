@@ -1,0 +1,159 @@
+@font-face {
+  font-family: do;
+  src: url(../FONTS/DaysOne-Regular.ttf);
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  font-family: do;
+}
+body {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-color: #000000;
+  color: #fff507;
+}
+header {
+  background-color: #000000;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  justify-content: space-between;
+  position: fixed;
+  padding: 0 8%;
+  align-items: center;
+}
+
+header nav ul li {
+  position: relative;
+  float: left;
+}
+header nav ul li a,
+.name,
+.signin {
+  color: #fff507;
+  display: block;
+  font-size: 20px;
+  padding: 20px;
+}
+header nav ul li a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.white {
+  color: #ffffff;
+  display: block;
+  font-size: 20px;
+}
+.white:hover {
+  background-color: rgb(0, 0, 0);
+  color: #fff507;
+}
+.name:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.signin:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.image-main {
+  width: 45px;
+  height: 45px;
+  padding-top: 8px;
+}
+.photo {
+  display: flex;
+}
+.premier {
+  height: 90px;
+  width: 80%;
+  padding-top: 100px;
+  padding-left: 150px;
+  font-size: 50px;
+}
+.prtext-line {
+  padding-top: 10px;
+  width: 800px;
+  border-bottom: 4px solid #fff507;
+}
+a {
+  color: #fff507;
+  font-size: 50px;
+}
+.prtext-a1 {
+  color: #fff507;
+  font-size: 25px;
+}
+.prtext-line {
+  padding-top: 10px;
+  width: 800px;
+  border-bottom: 4px solid #fff507;
+}
+.prtext-line1 {
+  padding-top: 10px;
+  width: 800px;
+  border-bottom: 4px solid #fff507;
+}
+.prtext-line2 {
+  padding-left: 100px;
+  padding-top: 10px;
+  width: 800px;
+  border-bottom: 4px solid #fff507;
+}
+.prtext1-2 {
+  height: 100px;
+  width: 100%;
+}
+.prtext1 {
+  height: 305px;
+  width: 100%;
+  padding-left: 150px;
+}
+.prtext2 {
+  display: flex;
+}
+.prtext3 {
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+.prtext2-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  position: relative;
+  z-index: 99;
+  transition: 0.4s;
+}
+.prtext2-image:hover {
+  border-radius: 15px;
+}
+.prtext2-button {
+  height: 100%;
+  width: 100%;
+  z-index: 98;
+  background-color: #151414;
+  border-radius: 32px;
+  transition: 0.4s;
+}
+.prtext2-button:hover {
+  border-radius: 15px;
+}
+.cart {
+  margin-top: 20px;
+  height: 250px;
+  width: 200px;
+  background-color: #151414;
+  border-radius: 30px;
+  display: flex;
+  margin-right: 25px;
+}
